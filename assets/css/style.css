@@ -1,0 +1,268 @@
+/* ========= Base ========= */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    color: #000;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-color: #eee;
+    line-height: 1.25;
+}
+
+/* ========= Navigation ========= */
+.navbar {
+    width: 100%;
+    height: 8rem;
+    background-color: #ddd;
+    padding: 0 8rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 4rem;
+    margin-right: 4rem;
+}
+
+.navbar-list {
+    display: flex;
+
+    list-style: none;
+}
+
+.navbar-link:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-button {
+    display: block;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.navbar-button:hover {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+.navbar-button-link {
+    text-decoration: none;
+    margin-left: auto;
+}
+
+/* ========= Biodata ========= */
+.biodata-box {
+    margin: auto;
+
+    width: 98rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+.biodata-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+    padding: 4rem;
+    margin: 4rem 0;
+    
+}
+
+.biodata-text {
+    width: 90%;
+    margin-top: 2rem;
+}
+
+.biodata-btn {
+    display: block;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+
+
+.biodata-btn-link:link {
+    text-decoration: none;
+}
+
+.biodata-btn:hover {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+.biodata-download-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.biodata-download-cv {
+    margin-left: 1rem;
+}
+
+.biodata-media {
+    display: flex;
+
+    margin-top: 2rem;
+}
+
+.biodata-media-link:link,
+.biodata-media-link:visited {
+    color: #000;
+}
+
+.biodata-media-link:not(:last-child) {
+    margin-right: 2rem;
+}
+
+
+.biodata-card-box {
+    display: flex;
+    justify-content: center;
+}
+
+.biodata-card {
+    width: 25rem;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.biodata-card-photo {
+    display: block;
+    width: 100%;
+}
+
+.biodata-card-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+.biodata-card-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.biodata-card-job {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+/* ========= Contact ========= */
+.form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 60rem;
+    background-color: #eee;
+    border-radius: 1rem;
+    padding: 4rem 8rem;
+}
+
+.form-input:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form-inputed {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.form-inputed:focus {
+    outline: none;
+    border-bottom: 2px solid green;
+}
+
+.form-btn {
+    display: block;
+    border: none;
+    width: 12rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
+}
+
+/* ========= Typography ========= */
+.heading-1 {
+    font-size: 1.6rem;
+}
+
+.heading-2 {
+    font-size: 2.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.heading-1,
+.heading-2 {
+    font-weight: 600;
+}
+
+/* ========= Icon ========= */
+.icon-download {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.icon-media {
+    font-size: 3rem;
+}
