@@ -59,7 +59,7 @@ body {
     background-color: #000;
     border-radius: 5px;
     padding: 1rem 2rem;
-    transition: all .3s;
+    transition: all 0.3s;
     cursor: pointer;
 }
 
@@ -91,7 +91,6 @@ body {
     background-color: #fff;
     padding: 4rem;
     margin: 4rem 0;
-    
 }
 
 .biodata-text {
@@ -107,11 +106,9 @@ body {
     border-radius: 5px;
     padding: 1rem 2rem;
     margin: 2rem 0;
-    transition: all .3s;
+    transition: all 0.3s;
     cursor: pointer;
 }
-
-
 
 .biodata-btn-link:link {
     text-decoration: none;
@@ -146,7 +143,6 @@ body {
 .biodata-media-link:not(:last-child) {
     margin-right: 2rem;
 }
-
 
 .biodata-card-box {
     display: flex;
@@ -220,21 +216,21 @@ body {
     border-bottom: 2px solid green;
 }
 
-.form-btn {
+.form-link {
     display: block;
-    border: none;
+    text-decoration: none;
     width: 12rem;
     color: #fff;
     background-color: #000;
     border-radius: 5px;
-    margin: auto;
+    text-align: center;
     padding: 1rem 2rem;
-    margin-top: 2rem;
-    transition: all .3s;
+    margin: 2rem auto 0;
+    transition: all 0.3s;
     cursor: pointer;
 }
 
-.form-btn:hover {
+.form-link:hover {
     color: #000;
     background-color: #fff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
